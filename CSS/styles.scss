@@ -1,0 +1,54 @@
+/*---MAIN STYLESHEET---*/
+//Colors
+$p-white: #f2f2f2;
+$metalblack: #262a34;
+$t-skyblue: #0275db;
+$opac-white: rgba(255,255,255,.1);
+$lime-green: #35ae6b;
+
+body{
+    background-color: $p-white;
+    font-size: 16px;
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+//Sidebar
+.side-bar{
+    background-color: $metalblack;
+    color: #fff;
+    min-width: 300px;
+    min-height: 100vh;
+    padding: 0;
+}
+.side-bar a{
+    color: #fff;
+}
+
+.side-bar .logo{
+    background-color: $t-skyblue;
+    margin-bottom: 2px;
+}
+.side-bar .logo h2{
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 300;
+    margin: 0;
+}
+//Menu
+.side-bar .menu a{
+    display: block;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid $opac-white;
+}
+.side-bar .menu a:hover{
+    background-color: $lime-green;
+    text-decoration: none;
+}
+.side-bar .menu a i{
+    margin-right: 20px;
+    font-weight: normal;
+}
