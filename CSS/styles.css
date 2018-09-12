@@ -185,4 +185,46 @@ main .comments .comment .buttons #flagbtn:hover {
   color: #fff;
 }
 
+@media screen and (max-width: 1199px) {
+  .side-bar {
+    min-width: auto;
+  }
+
+  .side-bar .logo {
+    display: none;
+  }
+
+  .side-bar .menu a span {
+    display: none;
+  }
+
+  .side-bar .menu a i {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 575px) {
+  .side-bar {
+    min-height: auto;
+  }
+
+  .side-bar .menu a {
+    display: inline-block;
+    border-bottom: none;
+  }
+
+  main .widget form button {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  main .comments .comment foto {
+    width: 30px;
+    height: 30px;
+  }
+
+  main .comments .comment .buttons button {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
