@@ -21,7 +21,7 @@ body{
 .side-bar{
     background-color: $metalblack;
     color: #fff;
-    min-width: 300px;
+    min-width: 250px;
     min-height: 100vh;
     padding: 0;
 }
@@ -133,4 +133,44 @@ main .stats .caja p{
 main .stats .caja:first-child,
 main .stats .caja:last-child{
     border-left: none;
+}
+//comments
+main .comments .cont{
+    box-shadow: 0px 0px 2px 0px $shadow;
+}
+main .comments .comment{
+    background-color: #fff;
+    padding:20px;
+    border-bottom: 1px solid #bfbfbf;
+}
+main .comments .comment .foto{
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+    margin-right: 20px;
+    border-radius: 100px;
+}
+main .comments .comment a{
+    display: inline-block;
+}
+main .comments .comment .foto img{
+    width: 100%;
+}
+main .comments .comment .text{
+    flex:1;
+}
+main .comments .comment .text .text-comment{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+main .comments .comment .buttons button{
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+main .comments .comment .buttons #flagbtn:hover{
+    background-color: $gray;
+    color: #fff;
 }
